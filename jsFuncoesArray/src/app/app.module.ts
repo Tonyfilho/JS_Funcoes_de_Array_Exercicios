@@ -6,6 +6,7 @@ import { MapComponent } from './map/map.component';
 import { FilterComponent } from './filter/filter.component';
 import { ReduceComponent } from './reduce/reduce.component';
 import { EveryComponent } from './every/every.component';
+import { SomeComponent } from './some/some.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EveryComponent } from './every/every.component';
     MapComponent,
     FilterComponent,
     ReduceComponent,
-    EveryComponent
+    EveryComponent,
+    SomeComponent
   ],
   imports: [
     BrowserModule
