@@ -7,6 +7,8 @@ import { FilterComponent } from './filter/filter.component';
 import { ReduceComponent } from './reduce/reduce.component';
 import { EveryComponent } from './every/every.component';
 import { SomeComponent } from './some/some.component';
+import { FindComponent } from './find/find.component';
+import { IncludesComponent } from './includes/includes.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SomeComponent } from './some/some.component';
     FilterComponent,
     ReduceComponent,
     EveryComponent,
-    SomeComponent
+    SomeComponent,
+    FindComponent,
+    IncludesComponent
   ],
   imports: [
     BrowserModule
