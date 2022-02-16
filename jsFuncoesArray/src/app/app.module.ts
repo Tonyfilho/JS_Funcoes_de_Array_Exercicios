@@ -10,6 +10,7 @@ import { SomeComponent } from './some/some.component';
 import { FindComponent } from './find/find.component';
 import { IncludesComponent } from './includes/includes.component';
 import { ApiRealComponent } from './api-real/api-real.component';
+import { ModificandoObjetosComponent } from './api-real/modificando-objetos/modificando-objetos.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ApiRealComponent } from './api-real/api-real.component';
     SomeComponent,
     FindComponent,
     IncludesComponent,
-    ApiRealComponent
+    ApiRealComponent,
+    ModificandoObjetosComponent
   ],
   imports: [
     BrowserModule
