@@ -9,6 +9,7 @@ import { EveryComponent } from './every/every.component';
 import { SomeComponent } from './some/some.component';
 import { FindComponent } from './find/find.component';
 import { IncludesComponent } from './includes/includes.component';
+import { ApiRealComponent } from './api-real/api-real.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { IncludesComponent } from './includes/includes.component';
     EveryComponent,
     SomeComponent,
     FindComponent,
-    IncludesComponent
+    IncludesComponent,
+    ApiRealComponent
   ],
   imports: [
     BrowserModule
